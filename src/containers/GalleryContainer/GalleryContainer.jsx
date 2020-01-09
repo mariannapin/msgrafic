@@ -1,5 +1,5 @@
 //@flow
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import Footer from '../../components/Footer';
 
 class GalleryContainer extends Component {
@@ -58,21 +58,29 @@ class GalleryContainer extends Component {
         return(
             <div className={`columns ${className}`}>
                 {galleryType === 'images' ? 
-                    galleryItems.map(({name, type, src}, index) => (                    
-                        <div key={index} className={`gallery-item ${type} ${index === currentIndex-1 ? 'active' : ''}`}>
-                            {
-                                typeof src  === 'object' ?
-                                    src.map((src, index) => (
-                                        <div key={index} className="image">
-                                            <img src={`${window.location.origin}/${src}`} alt={name} />
-                                        </div>
-                                    ))
-                                : (
-                                    <img src={`${window.location.origin}/${src}`} alt={name} />
-                                )
-                            }
-                        </div>
-                    )) : 
+                    galleryItems.map((item, index) => (
+                        <Fragment>
+                            {item.contentType === "description" ? (
+                                <div key={index} className={`gallery-item ${item.type} ${index === currentIndex-1 ? 'active' : ''}`}>
+                                    <div className="gallery-item__description" dangerouslySetInnerHTML={{ __html: item.text }} />
+                                </div>
+                            ) : (
+                                <div key={index} className={`gallery-item ${item.type} ${index === currentIndex-1 ? 'active' : ''}`}>
+                                    {
+                                        typeof item.src  === 'object' ?
+                                            item.src.map((src, index) => (
+                                                <div key={index} className="image">
+                                                    <img src={`${window.location.origin}/${src}`} alt={item.name} />
+                                                </div>
+                                            ))
+                                            : (
+                                                <img src={`${window.location.origin}/${item.src}`} alt={item.name} />
+                                            )
+                                    }
+                                </div>
+                            )}
+                        </Fragment>
+                    )) :
                     galleryItems.map((page, index) => (                    
                         <div key={index} className={`gallery-item ${index === currentIndex-1 ? 'active' : ''}`}>
                             <h1>{galleryItems.title}</h1>

@@ -129,6 +129,13 @@ h1 {
   height: 85vh;
   display: none;
 }
+.gallery-item__description {
+    z-index: 1000;
+    max-width: 65vw;
+    margin: 10vh auto;
+    max-height: 100vh;
+    padding: 2rem 0;
+}
   .gallery-item.active {
       display: flex;
   }
