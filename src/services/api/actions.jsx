@@ -62,15 +62,10 @@ const getGallery = () => (
                             "<br />" +
                             "<p style='text-align: center;'><b><a target='_blank' rel='noopener noreferrer' href='http://centrala.org.uk/pl/sklep/disco-cry/'>DISCO CRY</a></b></p>" +
                             "<br />" +
-                            "<p style='text-align: center;'><b><a target='_blank' rel='noopener noreferrer' href='https://artkomiks.pl/autor/marianna-serocka/'>ART KOMIKS</a></b></p>",
+                            "<p style='text-align: center;'><b><a target='_blank' rel='noopener noreferrer' href='https://artkomiks.pl/autor/marianna-serocka/'>ART KOMIKS</a></b></p>" +
+                            "<br />" +
+                            "<p style='text-align: center;'><b><a target='_blank' rel='noopener noreferrer' href='https://www.polskieradio.pl/10/482/Artykul/1682219,Disco-Cry-czyli-apetyt-na-wieczne-imprezy'>INTERVIEW</a></b></p>",
                         "type" : "full",
-                    },
-                    {
-                        "contentType": "description",
-                        "text" : "<p>- Pisałam komiks o tym, co mnie w tamtym momencie kręciło - mówi Marianna Serocka, autorka. - To jest komiks o dziewczynach 19-20-21-letnich, które \"zapalają się\", żeby iść na imprezę - dodaje.</p>"+
-                            "<br /><p>- Ten komiks jest soczysty. Jest w nim moc kolorów, pęd, co odzwierciedla głód wrażeń, apetyt na życie - opowiada rysowniczka i zdradza, że tworząc go sięgała po wiele inspiracji m.in. filmy \"Trainspotting\" czy \"Dziewczyny do wzięcia\".</p>"+
-                            "<br /><p>Marianna Serocka opowiada, że komiks powstawał, gdy była w imprezowym ciągu - imprezy zaczynały się we wtorek, a kończyły w środę następnego tygodnia. - Mieszała mi się jawa ze snem, to widać w tym komiksie, on jest bardzo abstrakcyjny - dzikość imprez wylewa się z tych kartek - wyjaśnia.</p>",
-                        "type" : "full"
                     }
                 ]
             }, {
@@ -190,11 +185,20 @@ const getGallery = () => (
                         ],
                         "type" : "double",
                         "name" : "Das ist wiksa"
+                    },
+                    {
+                        "contentType": "description",
+                        "text" : "<p>The exhibition was created as inspiration on the content of the \"Disco Cry\" art book</p>" +
+                            "<p>Das is wiksa, solo exhibition</p>" +
+                            "<p>18.06 - 2.07.2016 Henryk Gallery, Kraków</p>"+
+                            "<p>Curator: Aleksander Celusta</p>"+
+                            "<p>Photos, Studio FilmLove</p>",
+                        "type" : "full"
                     }
                 ]
             }, {
                 "id" : "na_wieczor",
-                "name" : "Na wieczór",
+                "name" : "Kuch luftowy",
                 "image" : "images/Bez nazwy-2.jpg",
                 "className" : "link--white",
                 "items" : [
