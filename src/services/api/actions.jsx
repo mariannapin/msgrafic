@@ -226,7 +226,21 @@ const getGallery = () => (
                             "<p>Na wieczór, na jesień, na schyłek życia. Wycinanka. Wycinki z życia. Ścinki wspomnień, obserwacji, przekonań, kulek różańca, snów.\n" +
                             "Welcome to Los Jebłos! Oto polska wieś. Niebo i ziemia. Bardziej ziemia. Przyziemność. Czarna i przygniatająca jak całe Los Jebłos – niegdyś wiocha “zabita dechami”, teraz “domeczki z ogródkami”.</p>" +
                             "</div>" +
-                            "<p style='float: right;'>Zavka</p>",
+                            "<p style='float: right;'>Zavka</p><br /><br /><br />" +
+                            "<p>Książka zrealizowana dzięki Stypendium Twórczemu Miasta Krakowa</p>",
+                        "type" : "full"
+                    }
+                ]
+            },
+            {
+                "id" : "lobster_killer",
+                "name" : "Lobster killer",
+                "image" : "images/lobsterkiller.jpeg",
+                "className" : "link--white",
+                "items" : [
+                    {
+                        "contentType": "description",
+                        "text" : "<p>Coming soon</p>",
                         "type" : "full"
                     }
                 ]
@@ -256,7 +270,19 @@ const getGallery = () => (
                   {
                       "place" : "middle",
                       "title" : "EXHIBITIONS",
-                      "text" : "</p> 2019 </p> Wszystkie oczy na mnie | performansy choreograficzne, BWA Katowice</p> Głębokie słuchanie, BWA Katowice </p> 2018 </p> Versailles is over, Négyszoba Galéria, Budapest, Hungary </p> <a href=\"http://widna.pl/index.php/ozimina/\">Ozimina,Widna Gallery,Kraków </a></p> </p> 2017 </p> NO PROBLEM,Potencja Gallery,Kraków </p> 2016 </p> Zespół Pieśni i Tańca Henryk, Henryk Gallery, Kraków </p> Das ist Wiksa, Henryk Gallery, Kraków </p> Rysować naturalnie, GSW Chłodna 20, Suwałki</p> <b>AWARDS AND ACHIEVEMENTS</b> </p> 2019 </p> BGSW </p> </p> 2018 </p> Stypendium Twórcze Miasta Krakowa </p> 2017 </p> Rezydencja Wyszechradzka w Budapeszie </p> Sejsmograf Młoda Polska Scena Artystyczna </p> Stypendium Twórcze Miasta Krakowa </p>"
+                      "text" : "</p> 2019 </p> Wszystkie oczy na mnie | performansy choreograficzne, BWA Katowice</p> Głębokie słuchanie, BWA Katowice" +
+                          "</p> 2018 </p> Interes, Potencja, Warsaw Gallery Weekend, Warszawa </p> </p> Versailles is over, Négyszoba Galéria, Budapest, Hungary </p> <a href=\"http://widna.pl/index.php/ozimina/\">Ozimina, Widna Gallery, Kraków </a></p>" +
+                          "</p> 2017 </p> NO PROBLEM, Potencja Gallery, Kraków" +
+                          "</p> 2016 </p> Zespół Pieśni i Tańca Henryk, Henryk Gallery, Kraków </p> Das ist Wiksa, Henryk Gallery, Kraków </p> Rysować naturalnie, GSW Chłodna 20, Suwałki </p> Drawing exhibition in Coma Festival in Brno </p> Art Book fair in Stokholm  </p> Women International Comics Art Festival in Brussels" +
+                          "</p> 2015 </p> Focus on fashion / Pokonkursowa wystawa fotografii mody / International Fashion Photography Exhibition, Kraków" +
+                          "</p> 2014 </p> The Best Diploma of 2014” exhibition in Palace of Art Krakow </p> International comics Culture Festival LIGATURA , Poznań</p>" +
+                          "<b>AWARDS AND ACHIEVEMENTS</b>" +
+                          "</p> 2018 </p> Creative scholarship of the city of Krakow" +
+                          "</p> 2017 </p> Sejsmograf Młoda Polska Scena Artystyczna (17.06 - 19.06.2016)<br/> A review of the Young Małopolska Art Scene organized by the Contemporary Art Gallery Bunkier Sztuki in Krakow in cooperation with BWA Sokół in Nowy Sącz and BWA in Tarnów\n" +
+                          "</p> Creative scholarship of the city of Krakow </p>" +
+                          "<b>RESIDENCIES</b>" +
+                          "</p> </p> 2019 </p> Residency program at Baltic Gallery of Contemporary Art (1.10 - 30.10.2019)</p>" +
+                          "</p> 2017 </p> Literary residency at Petőfi Irodalmi Múzeum in Budapest (1.09 - 30.10.2017) </p> "
                   }
                 ]
             ]
