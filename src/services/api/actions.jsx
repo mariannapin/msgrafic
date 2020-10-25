@@ -407,19 +407,25 @@ const getGallery = () => (
                   {
                       "place" : "middle",
                       "title" : "EXHIBITIONS",
-                      "text" : "</p> 2019 </p> Wszystkie oczy na mnie | performansy choreograficzne, BWA Katowice</p> Głębokie słuchanie, BWA Katowice" +
-                          "</p> 2018 </p> Interes, Potencja, Warsaw Gallery Weekend, Warszawa </p> </p> Versailles is over, Négyszoba Galéria, Budapest, Hungary </p> <a href=\"http://widna.pl/index.php/ozimina/\">Ozimina, Widna Gallery, Kraków </a></p>" +
-                          "</p> 2017 </p> NO PROBLEM, Potencja Gallery, Kraków" +
-                          "</p> 2016 </p> Zespół Pieśni i Tańca Henryk, Henryk Gallery, Kraków </p> Das ist Wiksa, Henryk Gallery, Kraków </p> Rysować naturalnie, GSW Chłodna 20, Suwałki </p> Drawing exhibition in Coma Festival in Brno </p> Art Book fair in Stokholm  </p> Women International Comics Art Festival in Brussels" +
-                          "</p> 2015 </p> Focus on fashion / Pokonkursowa wystawa fotografii mody / International Fashion Photography Exhibition, Kraków" +
-                          "</p> 2014 </p> The Best Diploma of 2014” exhibition in Palace of Art Krakow </p> International comics Culture Festival LIGATURA , Poznań</p>" +
-                          "<b>AWARDS AND ACHIEVEMENTS</b>" +
-                          "</p> 2018 </p> Creative scholarship of the city of Krakow" +
-                          "</p> 2017 </p> Sejsmograf Młoda Polska Scena Artystyczna (17.06 - 19.06.2016)<br/> A review of the Young Małopolska Art Scene organized by the Contemporary Art Gallery Bunkier Sztuki in Krakow in cooperation with BWA Sokół in Nowy Sącz and BWA in Tarnów\n" +
-                          "</p> Creative scholarship of the city of Krakow </p>" +
-                          "<b>RESIDENCIES</b>" +
-                          "</p> </p> 2019 </p> Residency program at Baltic Gallery of Contemporary Art (1.10 - 30.10.2019)</p>" +
-                          "</p> 2017 </p> Literary residency at Petőfi Irodalmi Múzeum in Budapest (1.09 - 30.10.2017) </p> "
+                      "text" : "<div><p></p>" +
+                          "2019 <p></p> Wszystkie oczy na mnie | performansy choreograficzne, BWA Katowice<p></p> Głębokie słuchanie, BWA Katowice<p></p>" +
+                          "2018 <p></p> Interes, Potencja, Warsaw Gallery Weekend, Warszawa <p></p> <p></p> Versailles is over, Négyszoba Galéria, Budapest, Hungary <p></p> <a href=\"http://widna.pl/index.php/ozimina/\">Ozimina, Widna Gallery, Kraków </a><p></p><p></p>" +
+                          "2017 <p></p> NO PROBLEM, Potencja Gallery, Kraków<p></p> 2016 <p></p> Zadyma - Behind the Smoke - interdisciplinary and international exhibition under the patronage of JM Rector of the Academy of Fine Arts, TYTANO Dolne Młyny Foundation and Initiative, Kraków<p></p> Zespół Pieśni i Tańca Henryk, Henryk Gallery, Kraków <p></p> Das ist Wiksa, Henryk Gallery, Kraków <p></p> Rysować naturalnie, GSW Chłodna 20, Suwałki <p></p> Drawing exhibition in Coma Festival in Brno <p></p> Art Book fair in Stokholm  <p></p> Women International Comics Art Festival in Brussels<p></p>" +
+                          "2015 <p></p> Focus on fashion / Pokonkursowa wystawa fotografii mody / International Fashion Photography Exhibition, Muzeum Inżynierii Miejskiej, Kraków<p></p>" +
+                          "2014 <p></p> The Best Diploma of 2014” exhibition in Palace of Art Krakow <p></p> International comics Culture Festival LIGATURA , Poznań<p></p><p></p>" +
+                          "2013 <p></p> Lux Helsinki - Lantern Park, The lanterns embrace the wintry park as the sun goes down, with the park’s own lighting adding to the effect, Helsinki<p></p>" +
+                          "2012 <p></p> SIOSTRO, BASEN, 42 FAMA, The International Artist Campus, Świnoujście<p></p>" +
+                          "<b>UPCOMING</b><p>" +
+                          "2020</p> Świetlica Barchnowy we współpracy z Gminny Ośrodek Kultury i Sportu Grodzisko Owidz<p>" +
+                          "2021</p> Muzeum Ziemi Kociewskiej w Starogardzie Gdańskim <p></p> Starogardzkie Centrum Kultury<p></p><p>" +
+                          "2022</p> Fabryka Sztuk, Tczew <p></p>" +
+                          "<b>AWARDS AND ACHIEVEMENTS</b><p></p>" +
+                          "2018 <p></p> Creative scholarship of the city of Krakow<p></p>" +
+                          "2017 <p></p> Sejsmograf Młoda Polska Scena Artystyczna (17.06 - 19.06.2016)<br> A review of the Young Małopolska Art Scene organized by the Contemporary Art Gallery Bunkier Sztuki in Krakow in cooperation with BWA Sokół in Nowy Sącz and BWA in Tarnów\n" +
+                          "<p></p> Creative scholarship of the city of Krakow <p></p>" +
+                          "<b>RESIDENCIES</b><p></p> <p></p>" +
+                          "2019 <p></p> Residency program at Baltic Gallery of Contemporary Art (1.10 - 30.10.2019)<p></p><p></p>" +
+                          "2017 <p></p> Literary residency at Petőfi Irodalmi Múzeum in Budapest (1.09 - 30.10.2017) <p></p> </div>",
                   }
                 ]
             ]
