@@ -59,6 +59,13 @@ const getGallery = () => (
                             "<p style='float: right;'>Jenny, Tooting Broadway</p>" +
                             "<br />" +
                             "<br />" +
+                            "<p style='float: right;'>Comic book</p>" +
+                            "<br />" +
+                            "<p style='float: right;'>Written and illustrated by: Marianna Serocka</p>" +
+                            "<br />" +
+                            "<p style='float: right;'>Published by: Centrala Ltd.</p>" +
+                            "<br />" +
+                            "<br />" +
                             "<br />" +
                             "<p style='text-align: center;'><b><a target='_blank' rel='noopener noreferrer' href='http://centrala.org.uk/pl/sklep/disco-cry/'>DISCO CRY</a></b></p>" +
                             "<br />" +
@@ -151,7 +158,61 @@ const getGallery = () => (
                             "type" : "full"
                     }
                 ]
-            }, {
+            },
+            {
+                "id" : "ph",
+                "name" : "Ph",
+                "image" : "images/Ph_main.jpg",
+                "className" : "link--white",
+                "items" : [
+                    {
+                        "src" : "images/Ph1.jpg",
+                        "type" : "full",
+                        "name" : "Ph"
+                    },
+                    {
+                        "src" : "images/Ph2.jpg",
+                        "type" : "full",
+                        "name" : "Ph"
+                    },
+                    {
+                        "src" : "images/Ph3.jpg",
+                        "type" : "full",
+                        "name" : "Ph"
+                    },
+                    {
+                        "src" : "images/Ph4.jpg",
+                        "type" : "full",
+                        "name" : "Ph"
+                    },
+                    {
+                        "src" : "images/Ph5.jpg",
+                        "type" : "full",
+                        "name" : "Ph"
+                    },
+                    {
+                        "src" : "images/Ph6.jpg",
+                        "type" : "full",
+                        "name" : "Ph"
+                    },
+                    {
+                        "src" : "images/Ph7.jpg",
+                        "type" : "full",
+                        "name" : "Ph"
+                    },
+                    {
+                        "contentType": "description",
+                        "text" : "<div>" +
+                            "<p>Marianna Serocka works within the visual arts in a wide range of media and techniques. For several years her leading photo blog became her paradoxically exhibitionist-intimate diary. Ubiquitous, a selfie, becomes disturbing in her self-portrait in which the completely obscured face looks at the viewer. Voyeuristic participation stops at the surface of the mask." +
+                            "<br/><br /> Serocka’s  series of photographs is a very intimate, although sometimes deeply ironic narrative in which the story telling is the commonly accessible language. Marianna eagerly reaches for pop-cultural patterns giving them, in a perverse way, an individual and intimate character. These patterns are marked by the stigma of an ambiguous melancholic aura. </p>" +
+                            "</div>" +
+                            "<br /><p style='float: right;'>M.Zawada</p><br /><br /><br />"+
+                            "<p style='text-align: center;'><a style=\"position: absolute;z-index: 1000\" href=\"http://ph46n.blogspot.com/\">See more...</a></p><br /><br /><br />",
+                        "type" : "full"
+                    }
+                ]
+            },
+            {
                 "id" : "das_ist_wiksa",
                 "name" : "Das ist wiksa",
                 "image" : "images/WIKSA.jpg",
@@ -227,6 +288,9 @@ const getGallery = () => (
                             "Welcome to Los Jebłos! Oto polska wieś. Niebo i ziemia. Bardziej ziemia. Przyziemność. Czarna i przygniatająca jak całe Los Jebłos – niegdyś wiocha “zabita dechami”, teraz “domeczki z ogródkami”.</p>" +
                             "</div>" +
                             "<p style='float: right;'>Zavka</p><br /><br /><br />" +
+                            "</br>" +
+                            "<p>Projekt, ilustracje i skład książki „Kuch Luftowy” :  Marianna Serocka</p>" +
+                            "</br>" +
                             "<p>Książka zrealizowana dzięki Stypendium Twórczemu Miasta Krakowa</p>",
                         "type" : "full"
                     }
@@ -241,6 +305,79 @@ const getGallery = () => (
                     {
                         "contentType": "description",
                         "text" : "<p>Coming soon</p>",
+                        "type" : "full"
+                    }
+                ]
+            },
+            {
+                "id" : "asfalt",
+                "name" : "Asfalt Records",
+                "image" : "images/asfalt_main.jpg",
+                "className" : "link--white",
+                "items" : [
+                    {
+                        "src" : "images/asfalt1.jpg",
+                        "type" : "large",
+                        "name" : "Asfalt"
+                    }, {
+                        "src" : "images/asfalt2.jpg",
+                        "type" : "large",
+                        "name" : "Asfalt"
+                    }, {
+                        "src" : "images/asfalt3.jpg",
+                        "type" : "large",
+                        "name" : "Asfalt"
+                    }, {
+                        "src" : "images/asfalt4.jpg",
+                        "type" : "large",
+                        "name" : "Asfalt"
+                    },
+                    {
+                        "contentType": "description",
+                        "text" : "<p>Layout and illustrations for Asfalt Shop</p>",
+                        "type" : "full"
+                    }
+                ]
+            },
+            {
+                "id" : "dramat",
+                "name" : "3 witches",
+                "image" : "images/dramat_main.jpg",
+                "className" : "link--white",
+                "items" : [
+                    {
+                        "contentType": "description",
+                        "text" : "<p>Spot and photography promoting fashion brand Dramat<br/>" +
+                            "Written and produced by: Dramat <br/>" +
+                            "Video directed by: Marianna Serocka and Dramat<br/>" +
+                            "DOP,  editing and effects by: Marianna Serocka</p>",
+                        "type" : "full"
+                    }
+                ]
+            },{
+                "id" : "Undine",
+                "name" : "Undine",
+                "image" : "images/undine_main.jpg",
+                "className" : "link--white",
+                "items" : [
+                    {
+                        "src" : "images/Un1.jpg",
+                        "type" : "full",
+                        "name" : "Undine"
+                    },
+                    {
+                        "src" : "images/Un2.jpg",
+                        "type" : "full",
+                        "name" : "Undine"
+                    },
+                    {
+                        "contentType": "description",
+                        "text" : "<p>Videos and photos promoting music duo: Undine<br/>"+
+                        "Written and produced by: Undine<br/>" +
+                        "Video directed by: Pat Dudek and Marianna Serocka <br/>" +
+                        "DOP by : Marianna Serocka<br/>" +
+                        "Editor: Agata Urban<br/>" +
+                        "Color correction + effects: Nikodem Witkowski",
                         "type" : "full"
                     }
                 ]
