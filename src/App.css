@@ -74,14 +74,14 @@ h1 {
   }
 
   .link {
-      height: 4rem;
+      height: 3.2rem;
       text-decoration: none;
       position: relative;
       z-index: 99;
-      font-size: 4rem;
+      font-size: 3.2rem;
       color: #000;
       letter-spacing: 0.03em;
-      line-height: 1em;
+      line-height: 3.2rem;
       display: inline-block;
   }
       .link-default {
